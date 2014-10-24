@@ -1,5 +1,7 @@
 file=getwd()
 print(file)
+##Please place the whole data folder in your Working directory
+##the code works using the relative paths of your working directory
 convert.characters.to.numeric<-function(dataframe)
 {
   class.data  <- sapply(dataframe, class)
