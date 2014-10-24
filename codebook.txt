@@ -1,0 +1,200 @@
+Codebook :-
+This is for the Getting and Cleaning Data - Course Project
+
+I have manipulated the data given in the assignment as expected and the please find the explanation of the variable below:
+
+Final table - "summary.txt" gives the mean of all the variables(Features) categorized by Activities and Subjects .And hence the name of the columns in the summary.txt are combination of both Activities and subjects
+
+Column names or categories below (138 categories)
+----------------------------------
+[1] "LAYING.for.Subject.ID.1"              "SITTING.for.Subject.ID.1"            
+  [3] "STANDING.for.Subject.ID.1"            "WALKING.for.Subject.ID.1"            
+  [5] "WALKING_DOWNSTAIRS.for.Subject.ID.1"  "WALKING_UPSTAIRS.for.Subject.ID.1"   
+  [7] "LAYING.for.Subject.ID.2"              "SITTING.for.Subject.ID.2"            
+  [9] "STANDING.for.Subject.ID.2"            "WALKING.for.Subject.ID.2"            
+ [11] "WALKING_DOWNSTAIRS.for.Subject.ID.2"  "WALKING_UPSTAIRS.for.Subject.ID.2"   
+ [13] "LAYING.for.Subject.ID.3"              "SITTING.for.Subject.ID.3"            
+ [15] "STANDING.for.Subject.ID.3"            "WALKING.for.Subject.ID.3"            
+ [17] "WALKING_DOWNSTAIRS.for.Subject.ID.3"  "WALKING_UPSTAIRS.for.Subject.ID.3"   
+ [19] "LAYING.for.Subject.ID.4"              "SITTING.for.Subject.ID.4"            
+ [21] "STANDING.for.Subject.ID.4"            "WALKING.for.Subject.ID.4"            
+ [23] "WALKING_DOWNSTAIRS.for.Subject.ID.4"  "WALKING_UPSTAIRS.for.Subject.ID.4"   
+ [25] "LAYING.for.Subject.ID.5"              "SITTING.for.Subject.ID.5"            
+ [27] "STANDING.for.Subject.ID.5"            "WALKING.for.Subject.ID.5"            
+ [29] "WALKING_DOWNSTAIRS.for.Subject.ID.5"  "WALKING_UPSTAIRS.for.Subject.ID.5"   
+ [31] "LAYING.for.Subject.ID.6"              "SITTING.for.Subject.ID.6"            
+ [33] "STANDING.for.Subject.ID.6"            "WALKING.for.Subject.ID.6"            
+ [35] "WALKING_DOWNSTAIRS.for.Subject.ID.6"  "WALKING_UPSTAIRS.for.Subject.ID.6"   
+ [37] "LAYING.for.Subject.ID.7"              "SITTING.for.Subject.ID.7"            
+ [39] "STANDING.for.Subject.ID.7"            "WALKING.for.Subject.ID.7"            
+ [41] "WALKING_DOWNSTAIRS.for.Subject.ID.7"  "WALKING_UPSTAIRS.for.Subject.ID.7"   
+ [43] "LAYING.for.Subject.ID.8"              "SITTING.for.Subject.ID.8"            
+ [45] "STANDING.for.Subject.ID.8"            "WALKING.for.Subject.ID.8"            
+ [47] "WALKING_DOWNSTAIRS.for.Subject.ID.8"  "WALKING_UPSTAIRS.for.Subject.ID.8"   
+ [49] "LAYING.for.Subject.ID.11"             "SITTING.for.Subject.ID.11"           
+ [51] "STANDING.for.Subject.ID.11"           "WALKING.for.Subject.ID.11"           
+ [53] "WALKING_DOWNSTAIRS.for.Subject.ID.11" "WALKING_UPSTAIRS.for.Subject.ID.11"  
+ [55] "LAYING.for.Subject.ID.14"             "SITTING.for.Subject.ID.14"           
+ [57] "STANDING.for.Subject.ID.14"           "WALKING.for.Subject.ID.14"           
+ [59] "WALKING_DOWNSTAIRS.for.Subject.ID.14" "WALKING_UPSTAIRS.for.Subject.ID.14"  
+ [61] "LAYING.for.Subject.ID.15"             "SITTING.for.Subject.ID.15"           
+ [63] "STANDING.for.Subject.ID.15"           "WALKING.for.Subject.ID.15"           
+ [65] "WALKING_DOWNSTAIRS.for.Subject.ID.15" "WALKING_UPSTAIRS.for.Subject.ID.15"  
+ [67] "LAYING.for.Subject.ID.16"             "SITTING.for.Subject.ID.16"           
+ [69] "STANDING.for.Subject.ID.16"           "WALKING.for.Subject.ID.16"           
+ [71] "WALKING_DOWNSTAIRS.for.Subject.ID.16" "WALKING_UPSTAIRS.for.Subject.ID.16"  
+ [73] "LAYING.for.Subject.ID.17"             "SITTING.for.Subject.ID.17"           
+ [75] "STANDING.for.Subject.ID.17"           "WALKING.for.Subject.ID.17"           
+ [77] "WALKING_DOWNSTAIRS.for.Subject.ID.17" "WALKING_UPSTAIRS.for.Subject.ID.17"  
+ [79] "LAYING.for.Subject.ID.19"             "SITTING.for.Subject.ID.19"           
+ [81] "STANDING.for.Subject.ID.19"           "WALKING.for.Subject.ID.19"           
+ [83] "WALKING_DOWNSTAIRS.for.Subject.ID.19" "WALKING_UPSTAIRS.for.Subject.ID.19"  
+ [85] "LAYING.for.Subject.ID.21"             "SITTING.for.Subject.ID.21"           
+ [87] "STANDING.for.Subject.ID.21"           "WALKING.for.Subject.ID.21"           
+ [89] "WALKING_DOWNSTAIRS.for.Subject.ID.21" "WALKING_UPSTAIRS.for.Subject.ID.21"  
+ [91] "LAYING.for.Subject.ID.22"             "SITTING.for.Subject.ID.22"           
+ [93] "STANDING.for.Subject.ID.22"           "WALKING.for.Subject.ID.22"           
+ [95] "WALKING_DOWNSTAIRS.for.Subject.ID.22" "WALKING_UPSTAIRS.for.Subject.ID.22"  
+ [97] "LAYING.for.Subject.ID.23"             "SITTING.for.Subject.ID.23"           
+ [99] "STANDING.for.Subject.ID.23"           "WALKING.for.Subject.ID.23"           
+[101] "WALKING_DOWNSTAIRS.for.Subject.ID.23" "WALKING_UPSTAIRS.for.Subject.ID.23"  
+[103] "LAYING.for.Subject.ID.25"             "SITTING.for.Subject.ID.25"           
+[105] "STANDING.for.Subject.ID.25"           "WALKING.for.Subject.ID.25"           
+[107] "WALKING_DOWNSTAIRS.for.Subject.ID.25" "WALKING_UPSTAIRS.for.Subject.ID.25"  
+[109] "LAYING.for.Subject.ID.26"             "SITTING.for.Subject.ID.26"           
+[111] "STANDING.for.Subject.ID.26"           "WALKING.for.Subject.ID.26"           
+[113] "WALKING_DOWNSTAIRS.for.Subject.ID.26" "WALKING_UPSTAIRS.for.Subject.ID.26"  
+[115] "LAYING.for.Subject.ID.27"             "SITTING.for.Subject.ID.27"           
+[117] "STANDING.for.Subject.ID.27"           "WALKING.for.Subject.ID.27"           
+[119] "WALKING_DOWNSTAIRS.for.Subject.ID.27" "WALKING_UPSTAIRS.for.Subject.ID.27"  
+[121] "LAYING.for.Subject.ID.28"             "SITTING.for.Subject.ID.28"           
+[123] "STANDING.for.Subject.ID.28"           "WALKING.for.Subject.ID.28"           
+[125] "WALKING_DOWNSTAIRS.for.Subject.ID.28" "WALKING_UPSTAIRS.for.Subject.ID.28"  
+[127] "LAYING.for.Subject.ID.29"             "SITTING.for.Subject.ID.29"           
+[129] "STANDING.for.Subject.ID.29"           "WALKING.for.Subject.ID.29"           
+[131] "WALKING_DOWNSTAIRS.for.Subject.ID.29" "WALKING_UPSTAIRS.for.Subject.ID.29"  
+[133] "LAYING.for.Subject.ID.30"             "SITTING.for.Subject.ID.30"           
+[135] "STANDING.for.Subject.ID.30"           "WALKING.for.Subject.ID.30"           
+[137] "WALKING_DOWNSTAIRS.for.Subject.ID.30" "WALKING_UPSTAIRS.for.Subject.ID.30"  
+ 
+-------------------------------------------------------------------------------------------------------
+|                                                                                                      | 
+|     For example "LAYING.for.subject.ID.1" - represents the Laying data of Subject "1" and so on.     |
+--------------------------------------------------------------------------------------------------------
+And the Variable names(Features) are in the row.As asked in the assignment ,only those variables which give the mean and standard deviation were filtered from the whole lot of variables listed in the data given for assignment.
+
+Variables (Filtered from the original list-Only variables giving mean and Std.deviation measurements)
+
+
+There are totally 86 Varaibles filtered out of 561 variables
+
+
+
+1] "tBodyAcc.mean...X"                    "tBodyAcc.mean...Y"                   
+ [3] "tBodyAcc.mean...Z"                    "tBodyAcc.std...X"                    
+ [5] "tBodyAcc.std...Y"                     "tBodyAcc.std...Z"                    
+ [7] "tGravityAcc.mean...X"                 "tGravityAcc.mean...Y"                
+ [9] "tGravityAcc.mean...Z"                 "tGravityAcc.std...X"                 
+[11] "tGravityAcc.std...Y"                  "tGravityAcc.std...Z"                 
+[13] "tBodyAccJerk.mean...X"                "tBodyAccJerk.mean...Y"               
+[15] "tBodyAccJerk.mean...Z"                "tBodyAccJerk.std...X"                
+[17] "tBodyAccJerk.std...Y"                 "tBodyAccJerk.std...Z"                
+[19] "tBodyGyro.mean...X"                   "tBodyGyro.mean...Y"                  
+[21] "tBodyGyro.mean...Z"                   "tBodyGyro.std...X"                   
+[23] "tBodyGyro.std...Y"                    "tBodyGyro.std...Z"                   
+[25] "tBodyGyroJerk.mean...X"               "tBodyGyroJerk.mean...Y"              
+[27] "tBodyGyroJerk.mean...Z"               "tBodyGyroJerk.std...X"               
+[29] "tBodyGyroJerk.std...Y"                "tBodyGyroJerk.std...Z"               
+[31] "tBodyAccMag.mean.."                   "tBodyAccMag.std.."                   
+[33] "tGravityAccMag.mean.."                "tGravityAccMag.std.."                
+[35] "tBodyAccJerkMag.mean.."               "tBodyAccJerkMag.std.."               
+[37] "tBodyGyroMag.mean.."                  "tBodyGyroMag.std.."                  
+[39] "tBodyGyroJerkMag.mean.."              "tBodyGyroJerkMag.std.."              
+[41] "fBodyAcc.mean...X"                    "fBodyAcc.mean...Y"                   
+[43] "fBodyAcc.mean...Z"                    "fBodyAcc.std...X"                    
+[45] "fBodyAcc.std...Y"                     "fBodyAcc.std...Z"                    
+[47] "fBodyAcc.meanFreq...X"                "fBodyAcc.meanFreq...Y"               
+[49] "fBodyAcc.meanFreq...Z"                "fBodyAccJerk.mean...X"               
+[51] "fBodyAccJerk.mean...Y"                "fBodyAccJerk.mean...Z"               
+[53] "fBodyAccJerk.std...X"                 "fBodyAccJerk.std...Y"                
+[55] "fBodyAccJerk.std...Z"                 "fBodyAccJerk.meanFreq...X"           
+[57] "fBodyAccJerk.meanFreq...Y"            "fBodyAccJerk.meanFreq...Z"           
+[59] "fBodyGyro.mean...X"                   "fBodyGyro.mean...Y"                  
+[61] "fBodyGyro.mean...Z"                   "fBodyGyro.std...X"                   
+[63] "fBodyGyro.std...Y"                    "fBodyGyro.std...Z"                   
+[65] "fBodyGyro.meanFreq...X"               "fBodyGyro.meanFreq...Y"              
+[67] "fBodyGyro.meanFreq...Z"               "fBodyAccMag.mean.."                  
+[69] "fBodyAccMag.std.."                    "fBodyAccMag.meanFreq.."              
+[71] "fBodyBodyAccJerkMag.mean.."           "fBodyBodyAccJerkMag.std.."           
+[73] "fBodyBodyAccJerkMag.meanFreq.."       "fBodyBodyGyroMag.mean.."             
+[75] "fBodyBodyGyroMag.std.."               "fBodyBodyGyroMag.meanFreq.."         
+[77] "fBodyBodyGyroJerkMag.mean.."          "fBodyBodyGyroJerkMag.std.."          
+[79] "fBodyBodyGyroJerkMag.meanFreq.."      "angle.tBodyAccMean.gravity."         
+[81] "angle.tBodyAccJerkMean..gravityMean." "angle.tBodyGyroMean.gravityMean."    
+[83] "angle.tBodyGyroJerkMean.gravityMean." "angle.X.gravityMean."                
+[85] "angle.Y.gravityMean."                 "angle.Z.gravityMean."    
+
+###not important#####
+
+
+The information about Features as given the data for assignement is given below :
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
+
+
+  
